@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    width: 150px;
+    height: 40px;
+    background: url("../images/Binyomin_Logo-.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding-left: 4rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+a.logo {
+    text-decoration: none;
+    color: black;
+    font-size: 140%;
+}
+
+
+body {
+    background-color: #e8eff4;
+    color: #263849;
+    font-family: "myriad-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.width {
+    max-width: 1100px;
+    margin: auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "balboa", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h2 {
+    color: #263849;
+    margin-top: 20px;
+    font-size: 40;
+    font-weight: 400;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.two_columns {
+    display: flex;
+    gap: 30px;
+}
+
+.Projects_color {
+    color: #d6c85b;
+}
+
+.center_margin {
+    text-align: center;
+}
+
+img {
+    max-width: 500px;
+    max-height: 500px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.featured_pieces {
+    max-height: 300px;
+}
+
+.front_covers {
+    max-height: 700px;
+    max-width: 700px;
+}
+
+.text_width {
+    max-width: 250px;
+}
+
+.row-container {
+    display: flex;
+    align-items: center;
+    /* Centers the paragraph vertically with the image */
+    gap: 20px;
+    /* Adds space between the image and text */
+}
+
+.row-container p {
+    margin: 0;
+    /* Removes default browser margins that can throw off alignment */
+}
+
+
+.parts_fleyer {
+    margin-top: 30px;
+}
+
+.gap_between {
+    gap: 20px;
+}
+
+.border {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #263849;
+    max-width: none;
+    padding-bottom: 40px;
+}
+
+.text_width_Featured {
+    max-width: 350px;
+}
